@@ -20,6 +20,8 @@ describe('Temel Cypress Komutlari', () => {
         cy.visit('/')
         cy.url().should('eq','https://www.amazon.com/') // tam esitlik durumu
         cy.url().should('include','mazo')
-
+    
     });
+
+    // it.only yaparsak sadece o testi calistiririz, it.skip dersek o testin es gecilmesini saglar
 });

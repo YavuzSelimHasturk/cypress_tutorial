@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       
     },
-    baseUrl:"https://amazon.com/"
+    baseUrl:"https://google.com/"
   },
 });
 
