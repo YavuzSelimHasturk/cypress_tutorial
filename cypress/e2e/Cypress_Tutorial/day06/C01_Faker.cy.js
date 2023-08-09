@@ -3,7 +3,8 @@ import { faker } from  '@faker-js/faker'
 
 
 describe('Faker Kullanimi', () => {
-/* Faker kurulumu yapilacak
+
+    /* Faker kurulumu yapilacak
 npm install --save-dev @faker-js/faker
 */
 
@@ -20,7 +21,7 @@ npm install --save-dev @faker-js/faker
         cy.get('[data-qa="signup-email"]').type(email)
         cy.get('[data-qa="signup-button"]').click()
 
-        cy.get('#id_gender1').click() //gender secimi
+        cy.get('#id_gender1').click() // gender secimi
 
         let password = faker.internet.password()
         cy.get('[data-qa="password"]').type(password) //password girisi
